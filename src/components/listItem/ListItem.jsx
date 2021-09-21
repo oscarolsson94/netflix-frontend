@@ -32,7 +32,8 @@ export default function ListItem({ index, item }) {
       }
     };
     getMovie();
-  }, [axiosInstance, item]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <Link to={{ pathname: "/watch", movie: movie }}>

@@ -33,7 +33,8 @@ const Home = ({ type }) => {
       }
     };
     getRandomLists();
-  }, [type, genre, axiosInstance]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [type, genre]);
   return (
     <div className="home">
       <Navbar />
