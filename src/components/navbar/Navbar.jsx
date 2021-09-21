@@ -45,7 +45,7 @@ const Navbar = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="http://localhost:4000/"
+              href={process.env.REACT_APP_ADMIN_DASHBOARD_URL}
               className="link"
             >
               <span className="navbarmainLinks">Admin</span>
