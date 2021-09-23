@@ -29,7 +29,7 @@ const Featured = ({ type, setGenre }) => {
   }, [type]);
 
   const handleGenre = (e) => {
-    if (e.target.value === "Genre") {
+    if (e.target.value === "allGenres") {
       setGenre(null);
     } else {
       setGenre(e.target.value);
@@ -41,7 +41,7 @@ const Featured = ({ type, setGenre }) => {
         <div className="category">
           <span>{type === "movie" ? "Movies" : "Series"}</span>
           <select name="genre" id="genre" onChange={handleGenre}>
-            <option>Genre</option>
+            <option value="allGenres">All Genres</option>
             <option value="adventure">Adventure</option>
             <option value="comedy">Comedy</option>
             <option value="crime">Crime</option>
