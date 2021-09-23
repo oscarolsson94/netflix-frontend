@@ -40,7 +40,7 @@ const Featured = ({ type, setGenre }) => {
       {type && (
         <div className="category">
           <span>{type === "movie" ? "Movies" : "Series"}</span>
-          <select name="genre" id="genre" onChange={() => handleGenre}>
+          <select name="genre" id="genre" onChange={handleGenre}>
             <option>Genre</option>
             <option value="adventure">Adventure</option>
             <option value="comedy">Comedy</option>
