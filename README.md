@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+# Links to the API and Admin dashboard source code:
+
+API source code: (https://github.com/oscarolsson94/netflix-api)
+
+Admin dashboard source code: (https://github.com/oscarolsson94/netflix-admin)
+
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
